@@ -26,7 +26,7 @@
 
     /* Logo sizing: smaller on desktop, scales nicely on mobile */
     .logo {
-      width: min(320px, 70vw);
+      width: min(420px, 85vw);
       height: auto;
       display: block;
       margin: 0 auto 16px auto;
@@ -39,6 +39,18 @@
       color: #111;
       margin: 0;
     }
+
+    .wrap {
+    animation: fadeIn 1.2s ease-out forwards;
+    opacity: 0;
+  }
+
+  @keyframes fadeIn {
+    to {
+      opacity: 1;
+    }
+  }
+    
   </style>
 </head>
 
